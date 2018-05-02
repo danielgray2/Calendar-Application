@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import UserReducer from './userReducer';
-import ActiveUserReducer from './activeUserReducer';
+import listOfBows from "./listOfBows";
+import selectBow from "./selectBow";
 
 const allReducers = combineReducers({
-    users: UserReducer,
-    activeUser: ActiveUserReducer
+    bows: listOfBows,
+    selectBow: selectBow
 });
 
 export default allReducers;

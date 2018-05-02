@@ -1,9 +1,7 @@
- export const selectUser = (user) => {
-     if(user.firstName === "Eli"){
-         user.lastName = 'What a guy'
-     }
+
+export const selectBow = (bow) => {
     return{
-        type: 'USER_SELECTED',
-        payload: user
+        type: 'BOW_SELECTED',
+        payload: bow
     }
- }
+}

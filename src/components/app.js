@@ -1,14 +1,11 @@
 import React from 'react';
-import UserList from '../containers/userList';
-import UserDetail from '../containers/userDetail';
-
+import UserInput from '../containers/userInput';
+import '../styles/global-styles'
 const App = () => (
-    <div>
-        <h2>Username List:</h2>
-        <UserList />
-        <hr/>
-        <h2>User Details:</h2>
-        <UserDetail/>
+    <div className = 'wrapper'>
+        <img className = "opening-picture" src = 'http://3.bp.blogspot.com/-C6VyehnRW7Y/U1A06hp-ijI/AAAAAAAADXQ/n5gM4opylGM/s1600/zzbowhunt+foto.jpg'/>
+        <h1>Buy a Bow:</h1>
+        < UserInput/>
     </div>
 )
 
